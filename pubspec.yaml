@@ -1,5 +1,5 @@
 name: widget_size_calculator
-description: A new Flutter project.
+description: A Flutter developer tool that generates production-ready responsive BuildContext extensions from UX designer screen dimensions.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
