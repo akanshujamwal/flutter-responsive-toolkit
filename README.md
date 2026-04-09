@@ -1,4 +1,4 @@
-# 🚀 Responsive Forge
+#  Responsive Forge
 
 <div align="center">
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 📖 About
+##  About
 
 **Responsive Forge** is an open-source Flutter tool built for Flutter developers who work directly with UX/UI designers. Instead of manually calculating `MediaQuery` fractions every time, you enter the designer's screen dimensions once — and get a **complete, production-ready Dart extension file** covering:
 
@@ -37,9 +37,9 @@ A built-in **multi-screen calculator** lets you test any pixel value across 9 pr
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🎨 Extension Generator
+###  Extension Generator
 - Enter your **designer's screen width & height** (e.g. 390 × 844)
 - Select your **target platform** — Mobile, Tablet, Web, or All
 - Choose a custom **extension name** (default: `AppResponsive`)
@@ -47,20 +47,20 @@ A built-in **multi-screen calculator** lets you test any pixel value across 9 pr
 - Instant **syntax-highlighted** code preview
 - **Copy to clipboard** or **download as `.dart`** file
 
-### 🧮 Value Calculator
+###  Value Calculator
 - Test any pixel value (width, height, font, radius, padding, icon) across all preset screens at once
 - Results displayed in a live grid — one card per device
 - Each card shows the **responsive result** and the **extension method** to use
 
-### 🎯 Smart UX
-- ⚡ Shimmer loading effect while code generates
-- 🌗 Full light & dark mode support (system-aware)
-- 📐 Responsive two-panel layout on wide screens; bottom nav on mobile
-- 🔢 Status bar showing design size, platform, and line count of generated file
+###  Smart UX
+-  Shimmer loading effect while code generates
+-  Full light & dark mode support (system-aware)
+-  Responsive two-panel layout on wide screens; bottom nav on mobile
+-  Status bar showing design size, platform, and line count of generated file
 
 ---
 
-## 🛠 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -96,7 +96,7 @@ flutter run -d ios          # iOS (macOS required)
 
 ---
 
-## 🔧 Dependencies
+##  Dependencies
 
 | Package | Version | Purpose |
 |---------|---------|---------|
@@ -110,7 +110,7 @@ flutter run -d ios          # iOS (macOS required)
 
 ---
 
-## 💡 How It Works
+##  How It Works
 
 ```
 Designer gives you:  390 × 844 px
@@ -138,11 +138,11 @@ Designer gives you:  390 × 844 px
 
 ---
 
-## 📦 Generated Extension API
+##  Generated Extension API
 
 Once you download your `.dart` file, here's everything available on `BuildContext`:
 
-### 📐 Dimensions
+###  Dimensions
 
 | Method | Returns | Description |
 |--------|---------|-------------|
@@ -152,7 +152,7 @@ Once you download your `.dart` file, here's everything available on `BuildContex
 | `context.r(8)` | `double` | Responsive border radius |
 | `context.icon(24)` | `double` | Responsive icon size |
 
-### 📏 Screen Info
+###  Screen Info
 
 | Property | Returns | Description |
 |----------|---------|-------------|
@@ -163,7 +163,7 @@ Once you download your `.dart` file, here's everything available on `BuildContex
 | `context.isLandscape` | `bool` | Orientation check |
 | `context.isPortrait` | `bool` | Orientation check |
 
-### 🧱 Padding
+###  Padding
 
 | Method | Returns | Description |
 |--------|---------|-------------|
@@ -173,7 +173,7 @@ Once you download your `.dart` file, here's everything available on `BuildContex
 | `context.pHV(20, 12)` | `EdgeInsets` | Horizontal + Vertical |
 | `context.pOnly(left: 8, top: 4)` | `EdgeInsets` | Custom sides |
 
-### 📦 Margin
+###  Margin
 
 | Method | Returns | Description |
 |--------|---------|-------------|
@@ -182,7 +182,7 @@ Once you download your `.dart` file, here's everything available on `BuildContex
 | `context.mV(12)` | `EdgeInsets` | Vertical only |
 | `context.mOnly(right: 8)` | `EdgeInsets` | Custom sides |
 
-### 📏 Spacing (SizedBox)
+###  Spacing (SizedBox)
 
 | Method / Property | Returns | Description |
 |-------------------|---------|-------------|
@@ -191,7 +191,7 @@ Once you download your `.dart` file, here's everything available on `BuildContex
 | `context.vSpace4` … `context.vSpace64` | `Widget` | Predefined vertical spacers |
 | `context.hSpace4` … `context.hSpace64` | `Widget` | Predefined horizontal spacers |
 
-### 🔘 Border Radius
+###  Border Radius
 
 | Method | Returns | Description |
 |--------|---------|-------------|
@@ -200,7 +200,7 @@ Once you download your `.dart` file, here's everything available on `BuildContex
 | `context.rBottom(12)` | `BorderRadius` | Bottom corners only |
 | `context.rOnly(topLeft: 8, bottomRight: 16)` | `BorderRadius` | Custom corners |
 
-### 📱 Breakpoints
+###  Breakpoints
 
 | Property / Method | Returns | Description |
 |-------------------|---------|-------------|
@@ -209,7 +209,7 @@ Once you download your `.dart` file, here's everything available on `BuildContex
 | `context.isDesktop` | `bool` | `screenWidth ≥ 1024` |
 | `context.responsive(mobile: x, tablet: y, desktop: z)` | `T` | Adaptive value selector |
 
-### 🔢 num Extension
+###  num Extension
 
 ```dart
 16.0.sp(context)       // Font size
@@ -220,7 +220,7 @@ Once you download your `.dart` file, here's everything available on `BuildContex
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 The project follows **Clean Architecture** with feature-based folder structure.
 
@@ -284,7 +284,7 @@ GeneratorInitial
 
 ---
 
-## 📱 Preset Devices
+##  Preset Devices
 
 | Device | Width | Height |
 |--------|-------|--------|
@@ -300,7 +300,7 @@ GeneratorInitial
 
 ---
 
-## 🗺 Roadmap
+##  Roadmap
 
 | Feature | Status | Priority |
 |---------|--------|----------|
@@ -321,7 +321,7 @@ GeneratorInitial
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome and appreciated! Here's how to get involved:
 
@@ -352,7 +352,7 @@ git checkout -b feature/your-feature-name
 
 ---
 
-## 🐛 Known Issues / Bugs (from original code)
+##  Known Issues / Bugs (from original code)
 
 These were present in the original calculator and have been fixed in this version:
 
@@ -364,7 +364,7 @@ These were present in the original calculator and have been fixed in this versio
 
 ---
 
-## 📄 License
+##  License
 
 ```
 MIT License
@@ -388,7 +388,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - [Flutter](https://flutter.dev) — the framework that makes this possible
 - [flutter_bloc](https://bloclibrary.dev) — clean and predictable state management
