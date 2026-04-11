@@ -23,15 +23,15 @@
 
 **Responsive Forge** is an open-source Flutter tool built for Flutter developers who work directly with UX/UI designers. Instead of manually calculating `MediaQuery` fractions every time, you enter the designer's screen dimensions once — and get a **complete, production-ready Dart extension file** covering:
 
-- ✅ Responsive width & height
-- ✅ Font size scaling
-- ✅ Padding & margin (all sides, symmetric, custom)
-- ✅ Border radius
-- ✅ Icon sizing
-- ✅ SizedBox spacers (predefined + dynamic)
-- ✅ Breakpoint helpers (`isMobile`, `isTablet`, `isDesktop`)
-- ✅ `responsive<T>(mobile, tablet, desktop)` adaptive value selector
-- ✅ `num` shorthand extensions (`16.0.sp(context)`)
+-  Responsive width & height
+-  Font size scaling
+-  Padding & margin (all sides, symmetric, custom)
+-  Border radius
+-  Icon sizing
+-  SizedBox spacers (predefined + dynamic)
+-  Breakpoint helpers (`isMobile`, `isTablet`, `isDesktop`)
+-  `responsive<T>(mobile, tablet, desktop)` adaptive value selector
+-  `num` shorthand extensions (`16.0.sp(context)`)
 
 A built-in **multi-screen calculator** lets you test any pixel value across 9 preset device sizes simultaneously.
 
@@ -304,20 +304,20 @@ GeneratorInitial
 
 | Feature | Status | Priority |
 |---------|--------|----------|
-| Extension Generator (core) | ✅ Done | — |
-| Multi-screen Calculator | ✅ Done | — |
-| Light / Dark theme | ✅ Done | — |
-| Preset device quick-fill | ✅ Done | — |
-| Copy & Download `.dart` | ✅ Done | — |
-| VS Code sidebar extension | 🔲 Planned | 🔴 High |
-| `num` extension toggle (`.sp` syntax) | 🔲 Planned | 🔴 High |
-| Live device frame preview | 🔲 Planned | 🟡 Medium |
-| URL-shareable config links | 🔲 Planned | 🟡 Medium |
-| Unit test file generator | 🔲 Planned | 🟡 Medium |
-| GitHub Pages hosted web version | 🔲 Planned | 🟢 Low |
-| i18n / localization support | 🔲 Planned | 🟢 Low |
-| Tablet & Desktop breakpoints config | 🔲 Planned | 🟢 Low |
-| GitHub Actions CI/CD | 🔲 Planned | 🟢 Low |
+| Extension Generator (core) |  Done | — |
+| Multi-screen Calculator |  Done | — |
+| Light / Dark theme |  Done | — |
+| Preset device quick-fill |  Done | — |
+| Copy & Download `.dart` |  Done | — |
+| VS Code sidebar extension |  Planned |  High |
+| `num` extension toggle (`.sp` syntax) |  Planned |  High |
+| Live device frame preview |  Planned |  Medium |
+| URL-shareable config links |  Planned |  Medium |
+| Unit test file generator |  Planned |  Medium |
+| GitHub Pages hosted web version |  Planned |  Low |
+| i18n / localization support |  Planned |  Low |
+| Tablet & Desktop breakpoints config |  Planned |  Low |
+| GitHub Actions CI/CD |  Planned |  Low |
 
 ---
 
